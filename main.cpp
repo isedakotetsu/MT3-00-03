@@ -28,7 +28,7 @@ static Matrix4x4 MakeTranslateMatrix(const Vector3& translate)
 	result.m[1][3] = 0;
 	result.m[2][0] = 0;
 	result.m[2][1] = 0;
-	result.m[2][2] = 0;
+	result.m[2][2] = 1;
 	result.m[2][3] = 0;
 	result.m[3][0] = translate.x;
 	result.m[3][1] = translate.y;
